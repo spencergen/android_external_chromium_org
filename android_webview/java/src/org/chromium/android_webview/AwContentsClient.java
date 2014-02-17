@@ -240,10 +240,10 @@ public abstract class AwContentsClient {
 
     public abstract void onDownloadStart(String url, String userAgent, String contentDisposition,
             String mimeType, long contentLength);
-
+            
     public abstract void showFileChooser(ValueCallback<String[]> uploadFilePathsCallback,
             FileChooserParams fileChooserParams);
-
+   
     public abstract void onGeolocationPermissionsShowPrompt(String origin,
             GeolocationPermissions.Callback callback);
 
